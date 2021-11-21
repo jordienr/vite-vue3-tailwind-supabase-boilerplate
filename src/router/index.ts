@@ -28,6 +28,14 @@ const routes = [
     }
 
   },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: () => import('../views/Profile.vue'),
+    meta:  {
+      public: false
+    }
+  },
    {
      path: '/logout',
      name: 'LogOut',

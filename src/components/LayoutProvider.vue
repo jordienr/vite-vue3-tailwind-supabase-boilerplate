@@ -10,6 +10,8 @@
                     <router-link class="p-2" to="/register">Sign up</router-link>
                 </span>
                 <span v-else>
+                    <router-link class="p-2" to="/">Dashboard</router-link>
+                    <router-link class="p-2" to="/profile">Profile</router-link>
                     <router-link class="p-2" to="/logout">Log out</router-link>
                 </span>
             </span>
