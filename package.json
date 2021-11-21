@@ -1,5 +1,5 @@
 {
-  "name": "doquo",
+  "name": "vite-vue3-supabase-tailwind-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
